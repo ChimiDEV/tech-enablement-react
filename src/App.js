@@ -1,24 +1,43 @@
-import logo from './logo.svg';
-import './App.css';
+import {
+  Header,
+  HeaderGlobalBar,
+  HeaderName,
+  SideNav,
+  SideNavMenu,
+  SideNavItems,
+  SideNavMenuItem,
+  SideNavLink,
+} from 'carbon-components-react';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Header>
+        <HeaderName>React Intro</HeaderName>
+        <HeaderGlobalBar></HeaderGlobalBar>
+      </Header>
+      <SideNav>
+        <SideNavItems>
+          <SideNavMenu title="Category title">
+            <SideNavMenuItem>Link</SideNavMenuItem>
+            <SideNavMenuItem>Link</SideNavMenuItem>
+            <SideNavMenuItem>Link</SideNavMenuItem>
+          </SideNavMenu>
+          <SideNavMenu title="Category title" isActive={true}>
+            <SideNavMenuItem>Link</SideNavMenuItem>
+            <SideNavMenuItem aria-current="page">Link</SideNavMenuItem>
+            <SideNavMenuItem>Link</SideNavMenuItem>
+          </SideNavMenu>
+          <SideNavMenu title="Category title">
+            <SideNavMenuItem>Link</SideNavMenuItem>
+            <SideNavMenuItem>Link</SideNavMenuItem>
+            <SideNavMenuItem>Link</SideNavMenuItem>
+          </SideNavMenu>
+          <SideNavLink>Link</SideNavLink>
+          <SideNavLink>Link</SideNavLink>
+        </SideNavItems>
+      </SideNav>
+    </>
   );
 }
 
