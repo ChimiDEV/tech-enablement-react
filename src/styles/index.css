@@ -1,0 +1,192 @@
+.content-container {
+  margin-top: 3rem;
+  margin-left: 16rem;
+
+  padding: 15px;
+}
+
+.toast-container {
+  z-index: 99999;
+  position: fixed;
+  right: 0;
+  top: 0;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.centered {
+  text-align: center;
+}
+
+.pointer,
+.side-nav-pointer {
+  cursor: pointer;
+}
+
+.who-am-i-header {
+  font-weight: bold;
+  font-size: 1.8em;
+  margin-bottom: 50px;
+}
+
+.profile-card-container {
+  background-color: #f4f4f4;
+  border-bottom: 1px solid #525252;
+  width: 500px;
+  padding-top: 15px;
+}
+
+.profile-card-picture {
+  width: 250px;
+  border-radius: 100%;
+  margin-left: 125px;
+}
+
+.profile-card-title,
+.profile-card-job {
+  font-weight: bold;
+  text-align: center;
+}
+
+.profile-card-description-title,
+.profile-card-title-name {
+  color: #0f62fe;
+}
+
+.profile-card-description {
+  padding-top: 15px;
+  padding-left: 15px;
+}
+
+.profile-card-description-title {
+  font-weight: bold;
+}
+
+.profile-card-badges {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 25px;
+}
+
+.profile-card-badge {
+  width: 150px;
+}
+
+.interactive,
+.interactive-flag:hover {
+  cursor: pointer;
+  color: #0f62fe;
+}
+
+.example-img {
+  margin-top: 100px;
+  height: 45vh;
+  border: 1px solid #0f62fe;
+}
+
+.frontend-image {
+  margin-top: 100px;
+  width: 80vw;
+}
+
+.green {
+  color: #42be65;
+}
+
+.blue {
+  color: #0f62fe;
+}
+
+.red {
+  color: #da1e28;
+}
+
+.black {
+  color: black;
+}
+
+.hover-green:hover {
+  color: #42be65;
+}
+
+.hover-blue:hover {
+  color: #0f62fe;
+}
+
+.hover-red:hover {
+  color: #da1e28;
+}
+
+.bg-green {
+  background-color: #42be65;
+}
+
+.bg-blue {
+  background-color: #0f62fe;
+}
+
+.bg-red {
+  background-color: #da1e28;
+}
+
+.info-box {
+  color: white;
+  padding: 15px;
+  height: 220px;
+}
+
+.info-header {
+  font-size: 1.3em;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.info-text {
+  text-align: left;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.info-url {
+  color: white;
+  font-weight: bold;
+}
+
+.structure-image {
+  height: 500px;
+}
+
+.margin-row {
+  margin-bottom: 25px;
+}
+
+.margin-ui {
+  margin-bottom: 10px;
+}
+
+.hidden {
+  display: none;
+}
+
+.topdown-image,
+.lifecycle-image,
+.components-image {
+  width: 100%;
+}
+
+.bordered-orange {
+  padding: 10px;
+  border: 2px solid #f1c21b;
+}
+
+.bordered-purple {
+  padding: 10px;
+  border: 2px solid #8a3ffc;
+}
+
+.bordered-gray {
+  padding: 10px;
+  border: 2px solid #c6c6c6;
+}

@@ -1,0 +1,56 @@
+[
+  {
+    "title": "Intro",
+    "icon": "Bee16",
+    "chapters": [
+      {
+        "title": "History",
+        "short": "history"
+      },
+      {
+        "title": "What and Why?",
+        "short": "what-why"
+      },
+      {
+        "title": "Frontend",
+        "short": "frontend"
+      }
+    ]
+  },
+  {
+    "title": "Fundamentals",
+    "icon": "Ruler16",
+    "chapters": [
+      { "title": "Prerequisites", "short": "prerequisites" },
+      { "title": "Keeping it Modular", "short": "modular" },
+      { "title": "Rendering Language: JSX", "short": "jsx" }
+    ]
+  },
+  {
+    "title": "User Interface",
+    "icon": "Touch_132",
+    "chapters": [
+      { "title": "Design Lifecycle", "short": "design-lifecycle" },
+      { "title": "Shell Elements", "short": "shell-ui" },
+      { "title": "Various UI Elements", "short": "various-ui" }
+    ]
+  },
+  {
+    "title": "Data & Interactivity",
+    "icon": "Code16",
+    "chapters": [
+      { "title": "Data Representation", "short": "data-representation" },
+      { "title": "State vs. Props", "short": "state-props" },
+      { "title": "Top Down Dataflow", "short": "top-down" },
+      { "title": "Lifecycle and Hooks", "short": "hooks" }
+    ]
+  },
+  {
+    "title": "Next Steps",
+    "icon": "Rocket16",
+    "chapters": [
+      { "title": "More Topics", "short": "more-topics" },
+      { "title": "Other URLs", "short": "other-urls" }
+    ]
+  }
+]
