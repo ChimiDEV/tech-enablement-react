@@ -48,9 +48,6 @@
   {
     "title": "Next Steps",
     "icon": "Rocket16",
-    "chapters": [
-      { "title": "More Topics", "short": "more-topics" },
-      { "title": "Other URLs", "short": "other-urls" }
-    ]
+    "chapters": [{ "title": "More Topics", "short": "more-topics" }]
   }
 ]
