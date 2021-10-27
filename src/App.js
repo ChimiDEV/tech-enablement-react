@@ -17,6 +17,7 @@ import Representation from './components/chapters/Representation';
 import StateProps from './components/chapters/StateProps';
 import TopDown from './components/chapters/TopDown';
 import Hooks from './components/chapters/Hooks';
+import NextSteps from './components/chapters/NextSteps';
 
 function App() {
   const [selection, setSelection] = useState('intro');
@@ -54,7 +55,7 @@ function App() {
       case 'hooks':
         return <Hooks />;
       case 'more-topics':
-      case 'other-urls':
+        return <NextSteps />;
       default:
         return <></>;
     }

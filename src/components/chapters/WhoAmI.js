@@ -124,7 +124,7 @@ const WhoAmI = ({ setToast }) => {
               <li>
                 <div className="direction-r">
                   <div className="flag-wrapper">
-                    <span className="flag">IBM Lab: Hannover</span>
+                    <span className="flag">IBM Lab: Böblingen</span>
                     <span className="time-wrapper">
                       <span className="time">PE3</span>
                     </span>
